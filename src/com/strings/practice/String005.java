@@ -8,6 +8,6 @@ package com.strings.practice;
 public class String005 {
 
     public static void main(String[] args) {
-
+    String s="hi";
     }
 }

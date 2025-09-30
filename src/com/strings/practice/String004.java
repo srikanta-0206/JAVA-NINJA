@@ -7,7 +7,7 @@ package com.strings.practice;
 
 public class String004 {
     public static void main(String[] args) {
-        String str = "aeiou";
+        String str = "aeiou" ;
         int count =0;
         for (int i=0;i<str.length();i++){
             char b = str.charAt(i);

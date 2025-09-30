@@ -20,7 +20,7 @@ public class String003 {
             } else if (b >= '0' && b <= '9') {
                 number += b;
             } else {
-                special += b;
+                special +=  b;
             }
         }
 
