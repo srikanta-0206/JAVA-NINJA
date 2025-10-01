@@ -8,6 +8,16 @@ package com.strings.practice;
 public class String005 {
 
     public static void main(String[] args) {
-    String s="hi";
+    String s="JSPIDER@123";
+    int sum=0;
+
+    for (int i=0;i<s.length();i++){
+        char a = s.charAt(i);
+        if(a>='0' && a<='9'){
+            sum+=a-'0';
+        }
+
+    }
+        System.out.println(sum);
     }
 }
