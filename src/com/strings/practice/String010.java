@@ -2,22 +2,23 @@ package com.strings.practice;
 
 public class String010 {
 public static void main(String[] args) {
-	String s = "JAVA IS EASY";
+	String str = "java is easy";
+	String res = "";
 	String word = "";
-	String result = "";
-	for (int i=s.length()-1;i>=0;i--){
-		char a = s.charAt(i);
+	for (int i=str.length()-1;i>=0;i--){
+		char a = str.charAt(i);
 		if(a!=' '){
-			word=a+word;
-			
+			word = a+ word;
 		}
 		else {
-			result+=word+" ";
+			res+=word+" ";
 			word="";
+			
 		}
 		
 	}
-	result+=word;
-	System.out.println(result);
+	res+=word;
+	System.out.println(res);
+	
 }
 }

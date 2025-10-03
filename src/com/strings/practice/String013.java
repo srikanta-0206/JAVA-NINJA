@@ -1,8 +1,8 @@
 package com.strings.practice;
 
-public class String011 {
+public class String013 {
 public static void main(String[] args) {
-	String str = "javadev";
+	String str = "banana";
 	
 }
 }
