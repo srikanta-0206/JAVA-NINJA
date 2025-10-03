@@ -10,12 +10,18 @@ public static int factorial(int n){
 	}
 	return fact;
 
+}public static int sum (int a,int b ){
+	return a+b;
+}
+public static int sum(int a,int b ,int c){
+	return a+b+c;
 }
 
 
 public static void main(String[] args) {
 	int a = 7;
-
-	System.out.println(	factorial(a));
+int z=10;
+int xa=10;
+	System.out.println(	factorial(a)+ " "+ sum(a,z)+" "+sum(a,z,xa));
 }
 }
